@@ -1,0 +1,108 @@
+/* 
+    Created on : 11 jun. 2023, 17:35:51
+    Author     : Carlos López
+*/
+/*body {
+    background-color: #26004d;
+background-image: radial-gradient(at 38% 5%, hsla(96, 94%, 58%, 1) 0, hsla(96, 94%, 58%, 0) 50%),
+radial-gradient(at 15% 76%, hsla(173, 94%, 52%, 1) 0, hsla(173, 94%, 52%, 0) 50%),
+radial-gradient(at 22% 16%, hsla(131, 92%, 65%, 1) 0, hsla(131, 92%, 65%, 0) 50%),
+radial-gradient(at 31% 10%, hsla(218, 91%, 57%, 1) 0, hsla(218, 91%, 57%, 0) 50%),
+radial-gradient(at 77% 42%, hsla(297, 86%, 63%, 1) 0, hsla(297, 86%, 63%, 0) 50%),
+radial-gradient(at 48% 100%, hsla(287, 92%, 66%, 1) 0, hsla(287, 92%, 66%, 0) 50%),
+radial-gradient(at 70% 1%, hsla(5, 91%, 50%, 1) 0, hsla(5, 91%, 50%, 0) 50%);
+}*/
+
+/*body{
+background-image: radial-gradient(at 38% 5%, hsla(96, 94%, 58%, 1) 0, hsla(96, 94%, 58%, 0) 50%),
+radial-gradient(at 15% 76%, hsla(173, 94%, 52%, 1) 0, hsla(173, 94%, 52%, 0) 50%),
+radial-gradient(at 22% 16%, hsla(131, 92%, 65%, 1) 0, hsla(131, 92%, 65%, 0) 50%),
+radial-gradient(at 31% 10%, hsla(218, 91%, 57%, 1) 0, hsla(218, 91%, 57%, 0) 50%),
+radial-gradient(at 77% 42%, hsla(297, 86%, 63%, 1) 0, hsla(297, 86%, 63%, 0) 50%),
+radial-gradient(at 48% 100%, hsla(287, 92%, 66%, 1) 0, hsla(287, 92%, 66%, 0) 50%),
+radial-gradient(at 70% 1%, hsla(5, 91%, 50%, 1) 0, hsla(5, 91%, 50%, 0) 50%);
+}*/
+
+body{
+    
+    background: linear-gradient(180deg, #FFB7B7 0%, #727272 100%), radial-gradient(60.91% 100% at 50% 0%, #FFD1D1 0%, #260000 100%), linear-gradient(238.72deg, #FFDDDD 0%, #720066 100%), linear-gradient(127.43deg, #00FFFF 0%, #FF4444 100%), radial-gradient(100.22% 100% at 70.57% 0%, #FF0000 0%, #00FFE0 100%), linear-gradient(127.43deg, #B7D500 0%, #3300FF 100%);
+background-blend-mode: screen, overlay, hard-light, color-burn, color-dodge, normal;
+}
+h1 {
+    
+  text-shadow: 2px 2px;
+
+}
+h2 {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    margin-bottom: 5px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+nav {
+    background-color: #cccccc;
+    padding: 10px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    
+}
+nav li {
+    margin-right: 10px;
+    padding: 8px 10px;
+    background: black;
+    border-radius: 10px;
+}
+nav li:hover {
+    background: whitesmoke;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.page {
+    display: none;
+}
+.page.active {
+    display: block;
+}
+#musica-favorita .h1{
+    color: red;
+}
+#peliculas-favoritas .h1{
+    color: red;
+    padding: 40px;
+}
+#familia .h1{
+    color: blue;
+}
+#pasatiempos .h1{
+    color: blue;
+}
+#id1{
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round;   
+}
+
+.id1{
+  margin: 25px 50px 75px 100px;
+}
